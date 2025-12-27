@@ -9,6 +9,14 @@ A **low-level design (LLD)** project in Java that models a multi-floor parking l
 
 ---
 
+## Class Diagram
+
+The class diagram below summarizes the main components and their relationships. The image can be found in the repository as `SmartParkingLotSystem-Class-Diagram.png`.
+
+![Smart Parking Lot System - Class Diagram](./SmartParkingLotSystem-Class-Diagram.png)
+
+---
+
 ## Tech stack
 - Java (toolchain configured to **Java 25** in Gradle)
 - Gradle (wrapper included)
