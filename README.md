@@ -2,7 +2,7 @@
 
 ## How to run
 
-- **Run demo (no Maven needed)**
+- **Run demo (no build tool; no Maven/Gradle needed)**
 
 ```bash
 # compile (PowerShell)
@@ -23,19 +23,3 @@ Requires **Gradle 9.1+** for Java 25 support.
 gradle test
 gradle run
 ```
-
-- **Run tests (requires Maven installed)**
-
-```bash
-mvn test
-```
-
-- **Run demo**
-
-```bash
-mvn -q exec:java -Dexec.mainClass=com.airtribe.smartparkinglot.Main
-```
-
-If you don't have the Maven Exec plugin installed, you can also run `Main` from your IDE directly.
-
-
