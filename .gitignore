@@ -1,0 +1,61 @@
+### Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+hs_err_pid*
+replay_pid*
+*.pid
+
+### Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/out/
+!**/src/**/out/
+
+### IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Eclipse
+.classpath
+.project
+.settings/
+
+### VS Code
+.vscode/
+
+### NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### OS / misc
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Env
+.env
+.env.*
+!.env.example

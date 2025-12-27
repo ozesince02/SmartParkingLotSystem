@@ -1,0 +1,33 @@
+plugins {
+    id "java"
+    id "application"
+}
+
+group = "com.airtribe"
+version = "1.0.0"
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+application {
+    mainClass = "com.airtribe.smartparkinglot.Main"
+}
+
+dependencies {
+    testImplementation platform("org.junit:junit-bom:5.10.2")
+    testImplementation "org.junit.jupiter:junit-jupiter"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+
