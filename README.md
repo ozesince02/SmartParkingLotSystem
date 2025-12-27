@@ -1,7 +1,5 @@
 # Smart Parking Lot System (Java)
 
-Implementation based on `plan.md` (LLD).
-
 ## How to run
 
 - **Run demo (no Maven needed)**
