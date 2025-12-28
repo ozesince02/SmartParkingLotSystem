@@ -7,6 +7,9 @@ A **low-level design (LLD)** project in Java that models a multi-floor parking l
 - **Fee calculation** using a **Strategy** per vehicle type
 - Thread-safety for core operations (allocation + spot occupy/release)
 
+> This repo includes a small, deterministic **demo flow** in `Main.java` to quickly visualize the end-to-end lifecycle.
+> For exhaustive coverage of edge-cases (parking full, invalid ticket, concurrency, fee rules), refer to the **JUnit tests** under `src/test/java`.
+
 ---
 
 ## Class Diagram
